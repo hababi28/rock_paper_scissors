@@ -56,7 +56,7 @@ def match_intent(user_input):
         return 'error'
 
 def match_winner(user_input, ai_input):
-    # Return 0 if user wins, 1 if AI wins, 2 if draw
+    # Return updated scores and winner
 
     global aiScore, userScore
 
